@@ -117,3 +117,14 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+/* REMOVE ARROWS IN NUMBER INPUT */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
